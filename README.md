@@ -1,4 +1,4 @@
-## 基于SpringBoot+Mybatis+Thymeleaf商品信息管理系统
+## “书式生活”App后台管理系统开发
 
 ### 主要用到的技术：
 - 使用maven进行项目构建 
@@ -31,20 +31,6 @@
 ### 问题：如何启动本系统？
 1. 将sql文件在MySQL运行生成表和数据，启动Redis服务， MongoDB选择性开启（不开启时会报错但不影响系统正常访问，用到上传照片功能需要启动MongoDB）
 2. 最后直接启动Application类后访问[http://localhost:8080/user/login](http://localhost:8080/user/login)就可以进入本系统！
-
-
-## 预览效果
-![首页](https://github.com/zaiyunduan123/jesper_shop/blob/master/src/main/resources/static/img/shop-image/board.png)
-
-![商品管理](https://github.com/zaiyunduan123/jesper_shop/blob/master/src/main/resources/static/img/shop-image/item.png)
-
-![商品修改](https://github.com/zaiyunduan123/jesper_shop/blob/master/src/main/resources/static/img/shop-image/edit.png)
-
-![订单管理](https://github.com/zaiyunduan123/jesper_shop/blob/master/src/main/resources/static/img/shop-image/order.png)
-
-![物流公司](https://github.com/zaiyunduan123/jesper_shop/blob/master/src/main/resources/static/img/shop-image/kuaidi.png)
-
-![查询](https://github.com/zaiyunduan123/jesper_shop/blob/master/src/main/resources/static/img/shop-image/search.png)
 
 
 ## 附加-数据库设计
